@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+
+  <Identity
+    Name="a67be6a7-a7a1-43df-9db0-f384b38e6546"
+    Version="1.0.0.0"
+    Publisher="CN=Jeff" />
+
+  <Properties>
+    <DisplayName>Cover Three</DisplayName>
+    <PublisherDisplayName>Jeff McKenzie</PublisherDisplayName>
+    <Logo>images\c3_logo_red_50.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Cover Three" Logo="images\c3_logo_red_150.png" SmallLogo="images\c3_logo_red_30.png" Description="description" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" WideLogo="images\c3_logo_red_310.png" ShortName="Cover Three" />
+        <SplashScreen Image="images\c3_logo_red_620.png" BackgroundColor="#810927" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+          <Rotation Preference="portraitFlipped" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
