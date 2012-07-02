@@ -1,0 +1,54 @@
+﻿  <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Cover Three</title>
+
+  <!-- WinJS references -->
+  <link href="//Microsoft.WinJS.1.0.RC/css/ui-dark.css" rel="stylesheet" />
+  <script src="//Microsoft.WinJS.1.0.RC/js/base.js"></script>
+  <script src="//Microsoft.WinJS.1.0.RC/js/ui.js"></script>
+
+  <!-- CoverThree references -->
+  <link href="/css/default.css" rel="stylesheet" />
+  <link href="/css/cover-three.css" rel="stylesheet">
+  <script src="/js/cover-three/cover-three.js"></script>
+  <script src="/js/default.js"></script>
+</head>
+<body>
+  <div data-win-control="WinJS.UI.ViewBox">
+    <div class="fixedlayout">
+      <div id="gutter-left-top"></div>
+      <div id="header">
+        <div id="title">Cover Three</div>
+      </div>
+      <div id="gutter-left-middle">
+          <p>Get three in a row, by any means necessary.</p>
+          Cover your opponent's pieces when you can.
+          You cannot cover your own piece.
+        <div id="message"></div>
+      </div>
+      <div id="board-container">
+        <div id="board-grid">
+          <div id="s0" class="sqr"><img src="images/piece0_player0.svg"></div>
+          <div id="s1" class="sqr">&nbsp;</div>
+          <div id="s2" class="sqr">&nbsp;</div>
+          <div id="s3" class="sqr">&nbsp;</div>
+          <div id="s4" class="sqr">&nbsp;</div>
+          <div id="s5" class="sqr">&nbsp;</div>
+          <div id="s6" class="sqr">&nbsp;</div>
+          <div id="s7" class="sqr">&nbsp;</div>
+          <div id="s8" class="sqr">&nbsp;</div>
+        </div>
+      </div>
+      <div id="gutter-right"></div>
+      <div id="footer"></div>
+    </div>
+    <div id="appbar" data-win-control="WinJS.UI.AppBar" data-win-options="">
+      <button data-win-control="WinJS.UI.AppBarCommand" id="cmdRestart"
+        data-win-options="{id:'cmdRestart',label:'Restart',icon:'refresh',section:'global',tooltip:'Restart Game',onclick:restartGame}">
+      </button>
+    </div>
+  </div>
+</body>
+</html>
