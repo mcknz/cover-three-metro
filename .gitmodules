@@ -1,0 +1,3 @@
+[submodule "lib/cover-three"]
+	path = lib/cover-three
+	url = git://github.com/mcknz/cover-three.js
