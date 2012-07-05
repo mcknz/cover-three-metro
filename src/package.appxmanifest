@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-
-  <Identity
-    Name="a67be6a7-a7a1-43df-9db0-f384b38e6546"
-    Version="1.0.0.0"
-    Publisher="CN=Jeff" />
-
+  <Identity Name="52891JeffMcKenzie.CoverThree" Version="0.0.1.0" Publisher="CN=8F8E90FE-9F5E-45A0-B439-DD3793F6BDA7" />
   <Properties>
     <DisplayName>Cover Three</DisplayName>
     <PublisherDisplayName>Jeff McKenzie</PublisherDisplayName>

@@ -44,9 +44,12 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateKeyFile>CoverThree_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>CoverThree_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <PackageCertificateThumbprint>436762A46013DF337CF9D5B887C9BC475FD68670</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="CoverThree_StoreKey.pfx" />
     <Content Include="css\cover-three.css" />
     <Content Include="css\default.css" />
     <Content Include="default.html" />
@@ -62,8 +65,10 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="js\cover-three-ui.js" />
     <Content Include="js\cover-three.js" />
     <Content Include="js\default.js" />
+    <None Include="Package.StoreAssociation.xml" />
     <None Include="CoverThree_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

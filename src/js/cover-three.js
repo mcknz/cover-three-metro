@@ -1,4 +1,4 @@
-var c3 = (function () {
+﻿var c3 = (function () {
   "use strict";
   var none = -1;
 

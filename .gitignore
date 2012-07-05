@@ -4,3 +4,5 @@ bld
 *.user
 package.appxmanifest
 *.pfx
+*.StoreAssociation.xml
+*/AppPackages
